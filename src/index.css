@@ -1,0 +1,502 @@
+@font-face {
+	font-family: Cera-black;
+	src: url("./assets/fonts/Cera\ Pro\ Black.otf");
+}
+
+@font-face {
+	font-family: Cera-bold;
+	src: url("./assets/fonts/Cera\ Pro\ Bold.otf");
+}
+
+@font-face {
+	font-family: Cera-black-italic;
+	src: url("./assets/fonts/Cera\ Pro\ Black\ Italic.otf");
+}
+
+@font-face {
+	font-family: Cera-light;
+	src: url("./assets/fonts/Cera\ Pro\ Light.otf");
+}
+
+@font-face {
+	font-family: Cera-medium;
+	src: url("./assets/fonts/Cera\ Pro\ Medium.otf");
+}
+
+@font-face {
+	font-family: Cera-italic;
+	src: url("./assets/fonts/Cera\ Pro\ Regular\ Italic.otf");
+}
+
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #111;
+}
+
+body {
+	margin: 0;
+	font-family: Cera-medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #111;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+b,
+label,
+div {
+	font-family: Cera-medium;
+	font-size: 18px;
+}
+
+.container-style {
+	margin: 0 !important;
+	width: 100% !important;
+	padding: 0 !important;
+	max-width: 100% !important;
+}
+
+.nav-style {
+	position: fixed !important;
+	height: 80px;
+	vertical-align: baseline;
+	background-color: #fff;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5;
+	display: flex !important;
+	justify-content: space-between !important;
+	flex-direction: row !important;
+	padding: 0 !important;
+}
+
+.nav-form {
+	width: 100px;
+}
+
+.nav-brand {
+	padding: 12px 20px !important;
+}
+
+.nav-icon {
+	width: 55px;
+	height: 55px;
+}
+
+.nav-icon:before {
+	content: "\E648";
+}
+
+.nav-link-group {
+	display: flex !important;
+	margin: 0 !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+	height: 80px !important;
+	align-items: center !important;
+}
+
+.nav-link {
+	color: #111 !important;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	font-family: Cera-bold !important;
+	height: 80px !important;
+	align-items: center !important;
+	padding: 25px 20px 0 20px !important;
+}
+
+.link-focus {
+	box-shadow: inset 0 -2px 0 0 #111;
+}
+
+.card-title {
+	margin: 0 !important;
+}
+
+.intro-title {
+	font-family: Cera-medium !important;
+	font-size: 2.5rem !important;
+	line-height: 3.125rem !important;
+}
+
+.intro-title-more {
+	margin-bottom: 8px !important;
+}
+
+.intro-text {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	margin-top: 0.9375rem;
+	width: 30%;
+	font-weight: 400;
+	text-transform: inherit;
+}
+
+.intro-overlay {
+	margin-top: 140px;
+	margin-left: 80px;
+}
+
+.everyday-label {
+	padding: 0 5% !important;
+	margin-top: 100px !important;
+}
+
+.intro-card {
+	padding-top: 20px !important;
+	margin-top: 100px !important;
+}
+
+.card-area {
+	padding: 0 6%;
+	position: relative;
+}
+
+.simple-overlay {
+	position: relative;
+}
+
+.simple-content {
+	margin-top: 380px;
+	margin-left: 10px;
+}
+
+.simple-text {
+	font-family: Cera-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 8px !important;
+}
+
+.text-light {
+	color: #fff !important;
+}
+
+.text-black {
+	color: #111 !important;
+}
+
+.simple-card-left {
+	padding: 16px 8px 0 0 !important;
+}
+
+.simple-card-mid {
+	padding: 16px 0 0 0 !important;
+}
+
+.simple-card-right {
+	padding: 16px 0 0 8px !important;
+}
+
+.card-image {
+	border-radius: 0 !important;
+	width: 100%;
+	position: absolute !important;
+	display: block;
+	object-fit: cover;
+}
+
+.card-style {
+	border: none !important;
+	border-radius: 0 !important;
+	position: relative !important;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.large-card,
+.large-card-image {
+	height: 900px !important;
+}
+
+.medium-card,
+.medium-card-image {
+	height: 388px !important;
+}
+
+.simple-medium-card,
+.simple-medium-card-image {
+	height: 450px !important;
+}
+
+.card-col {
+	padding: 0 !important;
+}
+
+.button-style {
+	font-family: Cera-medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 8px 28px !important;
+	transition: color .5s ease-out !important;
+	position: relative;
+	z-index: 1;
+	margin-left: 0;
+	margin-right: 6px;
+	margin-top: 6px;
+	max-width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	border-radius: 20px !important;
+	border: none !important;
+	text-align: center !important;
+	text-decoration: none;
+	font-weight: 500 !important;
+	margin-top: 18px;
+}
+
+.button-white {
+	color: #111 !important;
+	background: #fff !important;
+}
+
+.button-dark {
+	color: #fff !important;
+	background: #111 !important;
+}
+
+.latest-label {
+	margin-top: 60px !important;
+	padding-left: 5% !important;
+}
+
+.latest-title {
+	margin-bottom: 1.25rem;
+	font-size: 1.5rem;
+	line-height: 2.3125rem;
+	font-family: Cera-bold;
+}
+
+.latest-text {
+	margin-bottom: 1.25rem;
+	font-size: 1.25rem;
+	line-height: 2.3125rem;
+	font-family: Cera-medium;
+}
+
+.label-area {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.latest-link,
+.latest-link:hover {
+	text-decoration: none !important;
+	color: #111;
+	float: right;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-right: 5% !important;
+}
+
+.product-card-group {
+	padding: 0 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-intro-start {
+	padding-top: 1.5% !important;
+}
+
+.product-intro {
+	padding: 0 5% 20px 5%;
+}
+
+.product-intro-image {
+	margin: 0 auto !important;
+}
+
+.intro-text-one {
+	padding: 5% 5% 0;
+	line-height: 1.25;
+}
+
+.intro-text-two {
+	padding: 5% 5% 0;
+	line-height: 1.25;
+}
+
+.intro-text-three {
+	padding: 5% 5% 0;
+	line-height: 1.25;
+}
+
+.small-image {
+	border-radius: 0 !important;
+	width: 100% !important;
+	display: block;
+}
+
+.best-card-image {
+	border-radius: 0 !important;
+	width: 100% !important;
+	display: block;
+	height: 440px;
+	object-fit: cover;
+	position: absolute !important;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(224, 224, 224);
+	position: relative;
+	margin-bottom: 0.3125rem;
+	padding: 20px;
+}
+
+.best-card {
+}
+
+.best-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 8px;
+	font-family: Cera-medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #111;
+}
+
+.best-label {
+	padding: 0 5%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.product-card-image {
+	height: 480px !important;
+	width: 480px !important;
+	display: block;
+	object-fit: cover;
+	padding: 20px;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(224, 224, 224);
+	position: relative;
+	margin: 0 auto;
+}
+
+.product-card-left {
+	padding: 20px 15px 0 0 !important;
+}
+
+.product-card-mid {
+	padding: 20px 0 0 0 !important;
+}
+
+.product-card-right {
+	padding: 20px 0 0 15px !important;
+}
+
+.product-card {
+	border-radius: 0 !important;
+	border: none !important;
+}
+
+.product-card-body {
+	padding: 10px 15px 0 0 !important;
+	width: 480px;
+	margin: 0 auto;
+}
+
+.product-table {
+	text-align: center;
+}
+
+.product-card-title {
+	float: left;
+	font-size: 18px !important;
+	line-height: 1.5 !important;
+	font-weight: 500 !important;
+	font-family: Cera-medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.product-card-price {
+	float: right;
+	font-family: Cera-medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px !important;
+	line-height: 1.5 !important;
+	font-weight: 500 !important;
+}
+
+.product-card-text {
+	float: left;
+	color: #757575;
+	font-family: Cera-medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	font-weight: 400 !important;
+}
+
+.footer-text {
+	color: #fff;
+	font-family: Cera-bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin-bottom: 4px;
+	line-height: 2;
+	font-weight: 400;
+}
+
+.footer-area {
+	position: relative;
+	display: flex !important;
+	margin-top: 80px;
+	background: #000;
+	padding: 40px;
+	justify-content: space-evenly;
+}
+
+.footer-grey {
+	color: #7e7e7e;
+	font-family: Cera-light, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin-bottom: 4px;
+	line-height: 2;
+	font-weight: 400;
+}
+
+.footer-last {
+	background: #000;
+	padding: 20px 40px;
+	margin-top: 540px;
+}
+
+.footer-last-left {
+	float: left;
+}
+
+.footer-last-grey {
+	color: #7e7e7e;
+}
+
+.footer-last-white,
+.footer-last-white path {
+	color: #fff;
+}
+
+.footer-last-right {
+	float: right;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.shop-card-image {
+	height: 500px;
+	display: block;
+	object-fit: cover;
+}
+
+.shop-area-top {
+	margin-top: 80px;
+}
+
+.shop-area {
+	padding: 0 5%;
+}
