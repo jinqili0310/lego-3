@@ -1,4 +1,4 @@
-var icon_img = 'https://jinqili0310.github.io/assets/lego/LEGO-Logo-Ani2b.gif'
+var icon_img = '../assets/lego/LEGO-Logo-Ani2b.gif'
 var playAd = 0;
 var bye = 0;
 var sayBye// = setInterval(sayGoodbye, 600000);
@@ -27,10 +27,10 @@ function createQuestions() {
 	prescripted_questions[0] = new Question(['Are you having a good day so far?'], ['Absolutely 😃', 'Eh, it’s alright 😶','Not really 😣'], 1, 1);
 	prescripted_questions[1] = new Question(['We all have those days sometimes, I completely understand. Is there anything I can do to help make you feel better?'], ["Hear a Joke 😂", "View Leo’s Daily Motivation 🌞", "See a Cute Animal 😜"], 2, 2);
 	prescripted_questions[2] = new Question(["Good choice! I am an animal lover too!"], [""], 3, 0);
-	prescripted_questions[3] = new Question(["https://jinqili0310.github.io/assets/lego/LEGO%20GIF1.gif"], [""], 4, 0);
+	prescripted_questions[3] = new Question(["../assets/lego/LEGO%20GIF1.gif"], [""], 4, 0);
 	prescripted_questions[4] = new Question(["Do you feel warm inside? Are you feeling better?"], ['Yes 🥰', 'A little 😌'], 5, 0);
 	prescripted_questions[5] = new Question(["I’m so glad. It means a lot to us at LEGO that we can help brighten your day, even just a little bit. 😊"],[""], 6, 0);
-	prescripted_questions[6] = new Question(["https://jinqili0310.github.io/assets/lego/LEGO%20GIF2.gif"], [""], 7, 0);
+	prescripted_questions[6] = new Question(["../assets/lego/LEGO%20GIF2.gif"], [""], 7, 0);
 	prescripted_questions[7] = new Question(["What can I help you with today?"], ["Products 🎪", "Orders 💻", "Learn About LEGO 💡", "Support 📩"], 8, 2);
 	prescripted_questions[8] = new Question(["Sounds good. What do you want to know?"], ["Our Commitment to Creativity 🎨", "Our History 📍", "The LEGO Foundation 💞", "LEGO Education 📚"], 9, 0);
 	prescripted_questions[9] = new Question(["At Lego, the brick is only half of the joy. The other half is you– that’s why we care about you so much. Through our Lego Replay program, you can donate your used Lego bricks and we will send them to classrooms across the country to reach more creative young minds!"], [""], 10, 0);
