@@ -6,4 +6,4 @@
  * @FilePath: /lego-3/README.md
 -->
 # LEGO Clone
-* ## [GitHub Page](https://kikijinqili.github.io/lego-3)
+* ## [GitHub Page](https://jinqili0310.github.io/lego-3)
