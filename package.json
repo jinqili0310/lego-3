@@ -1,7 +1,7 @@
 {
 	"name": "lego-clone",
 	"version": "0.1.0",
-	"homepage": "https://kikijinqili.github.io/lego-3",
+	"homepage": "https://jinqili0310.github.io/lego-3",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.2.30",
