@@ -147,7 +147,7 @@ function askNextQuestion(answer_text) {
 			}, 2000);
 
 			setTimeout(function() {
-				postImage('https://kikijinqili.github.io/assets/lego/LEGO%20GIF3.gif');
+				postImage('../assets/lego/LEGO%20GIF3.gif');
 			}, 4000);
 		}
 }
